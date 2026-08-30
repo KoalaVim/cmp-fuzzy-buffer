@@ -1,0 +1,13 @@
+cmp-fuzzy-buffer-cmp-fuzzy-buffer	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-cmp-fuzzy-buffer*
+cmp-fuzzy-buffer-configuration	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-configuration*
+cmp-fuzzy-buffer-fuzzy_extra_arg	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-fuzzy_extra_arg*
+cmp-fuzzy-buffer-get_bufnrs-(type:-function)	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-get_bufnrs-(type:-function)*
+cmp-fuzzy-buffer-installation	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-installation*
+cmp-fuzzy-buffer-max_buffer_lines-(type:-int)	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-max_buffer_lines-(type:-int)*
+cmp-fuzzy-buffer-max_match_length-(type:-int)	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-max_match_length-(type:-int)*
+cmp-fuzzy-buffer-max_matches-(type:-int)	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-max_matches-(type:-int)*
+cmp-fuzzy-buffer-min_match_length-(type:-int)	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-min_match_length-(type:-int)*
+cmp-fuzzy-buffer-setup	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-setup*
+cmp-fuzzy-buffer-sorting-and-filtering	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-sorting-and-filtering*
+cmp-fuzzy-buffer-table-of-contents	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer-table-of-contents*
+cmp-fuzzy-buffer.txt	cmp-fuzzy-buffer.txt	/*cmp-fuzzy-buffer.txt*

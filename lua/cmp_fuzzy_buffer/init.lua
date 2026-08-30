@@ -1,5 +1,5 @@
 local api = vim.api
-local matcher = require('fuzzy_nvim')
+local backends = require('fuzzy_nvim.backends')
 
 local defaults = {
   max_buffer_lines = 20000,
@@ -7,6 +7,7 @@ local defaults = {
   min_match_length = 1,
   max_matches = 15,
   fuzzy_extra_arg = 0,
+  fuzzy_backend = nil,
   get_bufnrs = function()
     return { vim.api.nvim_get_current_buf() }
   end,
@@ -104,6 +105,7 @@ source.complete = function(self, params, callback)
     end
     local completions = {}
     local set = {}
+    local matcher = backends.get(params.option.fuzzy_backend)
     local matches = matcher:filter(pattern, lines, params.option.fuzzy_extra_arg)
     for _, result in ipairs(matches) do
       local line, positions, score = unpack(result)
