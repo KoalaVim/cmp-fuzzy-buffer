@@ -31,7 +31,7 @@ local source = {}
 
 source.extract_matches = function(self, line, first_match, last_match, is_cmd)
   local matches = {}
-  local keyword_regex = self:regex([[\k]])
+  local keyword_regex = self:regex([=[\%(\k\|-\)]=])
   local space_regex = self:regex([[\s]])
   local starts = {}
   local ends = {}
@@ -79,7 +79,7 @@ source.get_keyword_pattern = function(self, params)
   if vim.api.nvim_get_mode().mode == 'c' then
     return string.format([=[.\{%d,}]=], params.option.min_match_length)
   else
-    return string.format([=[\k\{%d,}]=], params.option.min_match_length)
+    return string.format([=[\%%(\k\|-\)\{%d,}]=], params.option.min_match_length)
   end
 end
 
